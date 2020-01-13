@@ -26,19 +26,21 @@ P = 작업 수행 성능
   - 새로운 데이터 구조를 도출
   (Clustering, Non-clustering)
 
-<h6>선형회귀 모델과 비용함수</h6>
+<h6>기계학습 대표모델(선형회귀)과 비용함수</h6>
 
-함수 h : X → Y를 배우기 위한 학습문제. 아래와 같은 프로세스를 구현하는 것이 목표
-![image](https://user-images.githubusercontent.com/45285053/72238974-ca5b7200-3622-11ea-8db7-a592fcd5d45a.png)
-
+함수 h : X → Y를 배우기 위한 학습문제. 
 우리가 예측하려는 목표 변수가 연속적이면 학습 문제를 회귀 문제, 그렇지 않고 이산적인 값을 예측한다면 분류 문제라고합니다.
-
-<h6>비용함수와 가설함수의 관계</h6>
-![image](https://user-images.githubusercontent.com/45285053/72239007-e65f1380-3622-11ea-9f60-f75f460ce9fe.png)
-
+가설함수 : 주어진 데이터 Set에 대해 아래와 같은 선형함수를 예측하는 것
 ![image](https://user-images.githubusercontent.com/45285053/72239104-38079e00-3623-11ea-8efb-cf61901c2f5a.png)
 
+<h6>비용함수와 가설함수의 관계</h6>
+비용함수를 통해서 입력된 데이터Set에 대한 가설함수의 정확성을 측정할 수 있습니다.
 ![image](https://user-images.githubusercontent.com/45285053/72239108-3fc74280-3623-11ea-9d0e-27780f130bfc.png)
+
+
+
+
+
 
 
 <h6>"기울기하강"알고리즘의 이해</h6>
