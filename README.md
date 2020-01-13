@@ -34,7 +34,11 @@ P = 작업 수행 성능
 우리가 예측하려는 목표 변수가 연속적이면 학습 문제를 회귀 문제, 그렇지 않고 이산적인 값을 예측한다면 분류 문제라고합니다.
 
 <h6>비용함수와 가설함수의 관계</h6>
+![image](https://user-images.githubusercontent.com/45285053/72239007-e65f1380-3622-11ea-9f60-f75f460ce9fe.png)
 
+![image](https://user-images.githubusercontent.com/45285053/72239104-38079e00-3623-11ea-8efb-cf61901c2f5a.png)
+
+![image](https://user-images.githubusercontent.com/45285053/72239108-3fc74280-3623-11ea-9d0e-27780f130bfc.png)
 
 
 <h6>"기울기하강"알고리즘의 이해</h6>
