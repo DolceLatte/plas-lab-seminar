@@ -11,6 +11,7 @@ MachineLearning: Fieldof study that gives computers the ability to learn without
 • Tom Mitchell(1998)
 
 Well-posedLearning Problem: A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E.
+
 => E에 의해서 T를 수행하는 P가 개선될 수 있다.
 
 T = 컴퓨터 프로그램의 작업
@@ -22,6 +23,7 @@ P = 작업 수행 성능
 • 지도 학습
   - 입력 데이터와 출력 데이터 format이 정해져 있음 
   (회귀 - Linear Regression, 분류 - SVD벡터)
+  
 • 비지도 학습(자율학습)
   - 새로운 데이터 구조를 도출
   (Clustering, Non-clustering)
@@ -46,10 +48,11 @@ P = 작업 수행 성능
 
 위의 경우보다 복잡한 𝜃0,𝜃1를 가지는 경우에는 가설함수가 아래와 같이 등고선 모양을 보입니다.
 ![image](https://user-images.githubusercontent.com/45285053/72240146-93875b00-3626-11ea-821a-014d9c8973a6.png)
-
 2차원 등고선 그래프의 최소지점을 찾기위해 "기울기하강"알고리즘이 필요합니다. 
 
 <h6>"기울기하강"알고리즘의 이해</h6>
+주어진 가설함수에 대해서 데이터에 가장 잘 부합하는 𝜃값을 찾기위해 "기울기하강"알고리즘을 사용해야합니다. 
+기울기하강 알고리즘
 
 
 
