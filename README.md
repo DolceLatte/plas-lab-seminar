@@ -65,17 +65,17 @@ P = 작업 수행 성능
 ### 다변량 선형 회귀 모델
 
 예측, 분류를 위해서 다수의 feature가 필요할 수 있습니다. 
-<img src="./img/1.png"><br/>
+<img src="./img/1.png" width="350" height="200"><br/>
 
 다변량이 적용된 “기울기 하강”알고리즘은 반복적으로 알고리즘을 수행해야 합니다. 
 변수가 증가함에 따라서 만들어지는 3차원 모델은 매우 복잡할 수 있습니다. 
-<img src="./img/2.png"><br/>
+<img src="./img/2.png" width="400" height="300"><br/>
 
 위와 같은 경우 반복적으로 “기울기 하강”알고리즘을 적용해서 최저값을 찾으면 매우 느리게 
 동작할 수 있습니다. 이를 위해서 평균정규화(Feature Scaling)를 수행해야합니다.
 
 ### Feature Scaling
-<img src="./img/3.png"><br/>
+<img src="./img/3.png" width="350" height="200"><br/>
 
 표준편차 혹은 최대 및 최소 가중치의 차이로 나누어 3차원 모델을 단순화 시킵니다. 
 이를 통해서 “기울기 하강”알고리즘을 적용시 더 빠르게 최저점을 찾을 수 있습니다.
@@ -88,12 +88,12 @@ P = 작업 수행 성능
 - 적절한 feature를 선택해서 가설함수를 그린다. 
 
 ### Normal Equation
-<img src="./img/4.png"><br/>
+<img src="./img/5.png" width="330" height="180"><br/>
 
 다수의 feature를 반복적으로 계산하지 않고도 최저점을 구해내는 방식입니다.
 Vector의 표현을 통해서 짧은 시간내에 연산을 완료합니다.
 
 <차이점>
-<img src="./img/5.png"><br/>
+<img src="./img/4.png" ><br/>
 
 
