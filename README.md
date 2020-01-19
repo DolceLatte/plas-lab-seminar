@@ -1,4 +1,4 @@
-# Machine-learning-study
+# Artifical Intelligence
 
 ## 1-WEEK
 
