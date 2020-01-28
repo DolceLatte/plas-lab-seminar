@@ -96,15 +96,21 @@ Vector의 표현을 통해서 짧은 시간내에 연산을 완료합니다.
 
 ## 3-WEEK
 
-### Classification
-
-### Hypothesis Representation
-
-### Decision Boundary
-
 ### Logistic Regression
+기계학습을 예측이 아닌 분류를 목적으로 수행하기 위한 알고리즘 연속적인 값을 이산적으로 분류할 수 있도록 비선형함수(Sigmoid)를 추가해서 가설함수를 구현
+[그림1]
+
+구현된 가설함수는 결정경계를 형성하고 이를 통해 데이터를 이산적으로 분류(이진분류에서는 -/+ 를 가진다.)
+
+-Logistic Regression's cost function-
+Sigmoid함수로 인해 비용함수가 볼록함수로 형성되지 않습니다. 이 때문에 선형회귀와는 다른방식의 비용함수를 사용해야 합니다.
+[그림2]
+
+위와 같이 비용함수를 작성해서 Output과 비용함수의 관계를 만들 수 있습니다.
 
 ### Simplified Cost Function and Gradient Descent
+
+
 
 ### Multiclass Classification: One-vs-all
 
