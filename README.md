@@ -115,7 +115,7 @@ Sigmoid함수로 인해 비용함수가 볼록함수로 형성되지 않습니�
 ### Simplified Cost Function and Gradient Descent
 Cost Function을 단순화해서 아래와 같은 식을 도출가능
 
-<img src="./img/3-4.png" ><br/>
+<img src="./img/3-4.png" width="350" height="150"><br/>
 
 ### Multiclass Classification: One-vs-all
 이진분류가 아닌 다중으로 값을 분류해야하는 방법
