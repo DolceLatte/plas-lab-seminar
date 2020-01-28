@@ -100,21 +100,22 @@ Vector의 표현을 통해서 짧은 시간내에 연산을 완료합니다.
 기계학습을 예측이 아닌 분류를 목적으로 수행하기 위한 알고리즘 연속적인 값을 이산적으로 분류할 수 있도록 
 비선형함수(Sigmoid)를 추가해서 가설함수를 구현
 
-[그림1]
+<img src="./img/3-1.png" ><br/>
 
 구현된 가설함수는 결정경계를 형성하고 이를 통해 데이터를 이산적으로 분류(이진분류에서는 -/+ 를 가진다.)
 
 -Logistic Regression's cost function-
 Sigmoid함수로 인해 비용함수가 볼록함수로 형성되지 않습니다. 이 때문에 선형회귀와는 다른방식의 비용함수를 사용해야 합니다.
 
-[그림2]
+<img src="./img/3-2.png" ><br/>
+<img src="./img/3-3.png" ><br/>
 
 위와 같이 Log를 사용해 비용함수를 작성하면 Output과 비용함수의 관계를 만들 수 있습니다.
 
 ### Simplified Cost Function and Gradient Descent
 Cost Function을 단순화해서 아래와 같은 식을 도출가능
 
-[그림3]
+<img src="./img/3-4.png" ><br/>
 
 ### Multiclass Classification: One-vs-all
 이진분류가 아닌 다중으로 값을 분류해야하는 방법
@@ -124,11 +125,11 @@ e.g.>
 Since we train one classifier when there are two classes, we train two classifiers 
 when there are three classes (and we do one-vs-all classification).
 
-[그림4]
+<img src="./img/3-5.png" ><br/>
 
 ### The Problem of Overfitting and Regularized
 
-[그림5]
+<img src="./img/3-6.png" ><br/>
 위와 같이 training set에 맞게 가설함수를 설정할 때 극단적으로 가설함수를 도출하는 경우가 있습니다. 
 이 경우 training set에서는 높은 예측도를 보이지만 이외의 문제에서는 형편없는 결과를 만들 수 있습니다. 
 이를 해결하기 위해서는 두 가지 방법이 존재합니다.
@@ -144,13 +145,18 @@ when there are three classes (and we do one-vs-all classification).
 모든 feature를 유지하면서 매개 변수의 크기를 줄이기 위해 아래와 같이 θj에 대해 추가값을 더해주어야 합니다.
 이를 적용해서 만들어진 비용함수는 아래와 같습니다. 
 
-[그림6]
+<img src="./img/3-7.png" ><br/>
+<img src="./img/3-8.png" ><br/>
 
 #### Regularized Linear Regression
+
 Gradient Descent
+<img src="./img/3-9.png" ><br/>
 
 Normal Equation
+<img src="./img/3-10.png" ><br/>
 
 #### Regularized Logistic Regression
-Cost Function
 
+Cost Function
+<img src="./img/3-11.png" ><br/>
