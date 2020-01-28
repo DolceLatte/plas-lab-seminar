@@ -130,6 +130,7 @@ when there are three classes (and we do one-vs-all classification).
 ### The Problem of Overfitting and Regularized
 
 <img src="./img/3-6.png" ><br/>
+Underfit                good               Overfit
 위와 같이 training set에 맞게 가설함수를 설정할 때 극단적으로 가설함수를 도출하는 경우가 있습니다. 
 이 경우 training set에서는 높은 예측도를 보이지만 이외의 문제에서는 형편없는 결과를 만들 수 있습니다. 
 이를 해결하기 위해서는 두 가지 방법이 존재합니다.
