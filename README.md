@@ -96,3 +96,17 @@ Vector의 표현을 통해서 짧은 시간내에 연산을 완료합니다.
 
 ## 3-WEEK
 
+### Classification
+
+### Hypothesis Representation
+
+### Decision Boundary
+
+### Logistic Regression
+
+### Simplified Cost Function and Gradient Descent
+
+### Multiclass Classification: One-vs-all
+
+### The Problem of Overfitting and Regularized
+
