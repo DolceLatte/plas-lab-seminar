@@ -108,14 +108,14 @@ Vector의 표현을 통해서 짧은 시간내에 연산을 완료합니다.
 Sigmoid함수로 인해 비용함수가 볼록함수로 형성되지 않습니다. 이 때문에 선형회귀와는 다른방식의 비용함수를 사용해야 합니다.
 
 <img src="./img/3-2.png" ><br/>
-<img src="./img/3-3.png" ><br/>
+<img src="./img/3-3.png" width="300" height="300"><br/>
 
 위와 같이 Log를 사용해 비용함수를 작성하면 Output과 비용함수의 관계를 만들 수 있습니다.
 
 ### Simplified Cost Function and Gradient Descent
 Cost Function을 단순화해서 아래와 같은 식을 도출가능
 
-<img src="./img/3-4.png" width="350" height="150"><br/>
+<img src="./img/3-4.png" ><br/>
 
 ### Multiclass Classification: One-vs-all
 이진분류가 아닌 다중으로 값을 분류해야하는 방법
