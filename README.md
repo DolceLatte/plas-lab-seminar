@@ -161,3 +161,6 @@ Normal Equation
 
 Cost Function
 <img src="./img/3-11.png" ><br/>
+
+
+### 4-week
