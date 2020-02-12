@@ -183,14 +183,51 @@ NN으로 부터 구현되는 비선형가설은 아래그림과 같은 XOR문제
 ### Neural Networks: Learning
 
 1. 비용함수
-L = total number of layers in the network
-sl = number of units (not counting bias unit) in layer l
-K = number of output units/classes
+L = 레이어의 총 개수
+sl = 각 레이어의 뉴런의 개수
+K = 출력 노드의 개수
 
 NN의 비용함수는 각각의 layer에 다중 Unit을 고려하기 때문에 복잡한 비용함수를 구현해야합니다.
 
 [그림4]
 
 2. 역전파 알고리즘
+NN의 비용함수를 최소화 하기 위한 알고리즘 <-> 기울기 하강, 정규 방정식
+
+2-1. 역전파 알고리즘의 개요
+[그림5]
+
+순전파 -> 역전파 -> 가중치 갱신 -> 순전파를 통해서 오차가 0에 가까워지도록 연산
+
+2-2. Gradient Checking
+역전파 알고리즘의 결과와 비교해서 오차를 줄이는 기법
+
+2-3. Random 초기화
+NN에서 가중치를 난수로 초기화를 시켜 학습결과의 정확도를 상승시킴(대칭성을 파괴)
+
+### NN 구현 단계
+1. 네트워크 모델 선텍
+
+2. 가중치 무작위 초기화
+
+3. unit에 대한 순전파 알고리즘 구현
+
+4. 비용함수 구현
+
+5. 역전파 알고리즘을 통한 비용함수 초기화 + Gradient Checking
+
+6. 정확한 가중치 연산 -> 최적화
+
+훈련 예제의 반복
+for i = 1:m,
+   Perform forward propagation and backpropagation using example (x(i),y(i))
+   (Get activations a(l) and delta terms d(l) for l = 2,...,L
+   
+
+## 6-WEEK
+
+
+
+
 
 
