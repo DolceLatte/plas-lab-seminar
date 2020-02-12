@@ -164,3 +164,33 @@ Cost Function
 
 
 ## 4-WEEK
+
+### Neural Networks
+Feature가 다양해질수록 2,3차 함수를 그리게 되는데 이러한 비선형가설 효율적이지 못함 => 계산해야하는 경우의 수가 너무 많음
+이러한 문제를 해결하기 위해서는 NN을 구현해야 합니다.
+
+[그림1]
+
+### NN Aplication
+NN으로 부터 구현되는 비선형가설은 아래그림과 같은 XOR문제를 해결할 수 있습니다.
+
+[그림2]
+
+[그림3]
+
+## 5-WEEK
+
+### Neural Networks: Learning
+
+1. 비용함수
+L = total number of layers in the network
+sl = number of units (not counting bias unit) in layer l
+K = number of output units/classes
+
+NN의 비용함수는 각각의 layer에 다중 Unit을 고려하기 때문에 복잡한 비용함수를 구현해야합니다.
+
+[그림4]
+
+2. 역전파 알고리즘
+
+
