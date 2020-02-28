@@ -1,7 +1,5 @@
 # Artifical Intelligence
 
-## 1-WEEK
-
 ### 기계학습의 정의
 
 • Arthur Samuel(1959)
@@ -60,9 +58,6 @@ P = 작업 수행 성능
 주어진 α는 훈련비율이며("기울기하강"의 정도), 미분계수는 좌표점의 오차를 보정(최소지점의 탐색)합니다.
 선형회귀 모델에서는 전역적인 최소지점이 한개만 도출됩니다.
 
-
-## 2-WEEK
-
 ### 다변량 선형 회귀 모델
 
 예측, 분류를 위해서 다수의 feature가 필요할 수 있습니다. 
@@ -94,9 +89,6 @@ Vector의 표현을 통해서 짧은 시간내에 연산을 완료합니다.
 
 <차이점>
 <img src="./img/4.png" ><br/>
-
-
-## 3-WEEK
 
 ### Logistic Regression
 기계학습을 예측이 아닌 분류를 목적으로 수행하기 위한 알고리즘 연속적인 값을 이산적으로 분류할 수 있도록 
@@ -164,9 +156,6 @@ Normal Equation
 Cost Function
 <img src="./img/3-11.png" ><br/>
 
-
-## 4-WEEK
-
 ### Neural Networks
 Feature가 다양해질수록 2,3차 함수를 그리게 되는데 이러한 비선형가설 효율적이지 못함 => 계산해야하는 경우의 수가 너무 많음
 이러한 문제를 해결하기 위해서는 NN을 구현해야 합니다.
@@ -179,9 +168,6 @@ NN으로 부터 구현되는 비선형가설은 아래그림과 같은 XOR문제
 <img src="./img/4-2.png" ><br/>
 
 <img src="./img/4-3.png" ><br/>
-
-
-## 5-WEEK
 
 ### Neural Networks: Learning
 
@@ -226,9 +212,7 @@ NN에서 가중치를 난수로 초기화를 시켜 학습결과의 정확도를
 for i = 1:m,
    Perform forward propagation and backpropagation using example (x(i),y(i))
    (Get activations a(l) and delta terms d(l) for l = 2,...,L
-   
-
-## 6-WEEK
+ 
 
 
 
